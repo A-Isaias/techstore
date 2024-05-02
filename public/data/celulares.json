@@ -1,0 +1,31 @@
+[
+    {
+      "modelo": "Samsung A34 5G",
+      "caracteristicas": "256 gb de almacenamiento / 64gb de ram",
+      "precio": 100,
+      "whatsapp": "3364338670",
+      "imagen": "images/Celular1.jpg"
+    },
+    {
+      "modelo": "Samsung A23 4gb",
+      "caracteristicas": "256 gb de almacenamiento / 64gb de ram",
+      "precio": 200,
+      "whatsapp": "3364338670",
+      "imagen": "images/Celular2.jpg"
+    },
+    {
+      "modelo": "Celular 3",
+      "caracteristicas": "Características del Celular 3",
+      "precio": 300,
+      "whatsapp": "1234567890",
+      "imagen": "images/Celular1.jpg"
+    },
+    {
+      "modelo": "Celular 4",
+      "caracteristicas": "Características del Celular 4",
+      "precio": 400,
+      "whatsapp": "1234567890",
+      "imagen": "images/Celular2.jpg"
+    }
+  ]
+  

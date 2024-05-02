@@ -1,0 +1,126 @@
+/* Estilos para el header */
+.header {
+    background-color: #000; /* Fondo negro */
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  /* Estilos para el contenedor del header */
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Espacio entre elementos */
+  }
+  
+  /* Estilos para el logo */
+  .logo {
+    margin: 0;
+  }
+  
+  .whatsapp-logo {
+    max-width: 15px; /* Establece un ancho máximo para la imagen */
+    height: auto; /* Altura automática para mantener la proporción original */
+  }
+  
+ /* Estilos para el botón de inicio */
+.nav {
+    background-color: #007bff; /* Color de fondo para el botón de inicio */
+    color: white; /* Color de texto blanco */
+    border: none; /* Sin borde */
+    padding: 8px 16px; /* Espacio interior */
+    font-size: 14px; /* Tamaño de fuente */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+  }
+  
+  .nav:hover {
+    background-color: #0056b3; /* Color de fondo más oscuro al pasar el cursor */
+  }
+  
+  /* Estilos para la barra de búsqueda */
+  .search-box {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 200px; /* Ancho deseado para el campo de búsqueda */
+  }
+  
+  .search-button {
+    background-color: #007bff; /* Color de fondo para el botón de búsqueda */
+    color: white; /* Color de texto blanco */
+    border: none; /* Sin borde */
+    padding: 8px 12px; /* Espacio interior */
+    font-size: 14px; /* Tamaño de fuente */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+  }
+  
+  .search-button:hover {
+    background-color: #0056b3; /* Color de fondo más oscuro al pasar el cursor */
+  }
+
+  
+/* Estilos para el botón de WhatsApp */
+.boton-whatsapp {
+  background-color: #25D366; /* Color de fondo de WhatsApp */
+  color: white; /* Color de texto blanco */
+  border: none; /* Sin borde */
+  padding: 8px 16px; /* Espacio interior */
+  font-size: 12px; /* Tamaño de fuente */
+  border-radius: 5px; /* Borde redondeado */
+  cursor: pointer; /* Cambia el cursor al pasar por encima */
+}
+
+.boton-whatsapp:hover {
+  background-color: #128C7E; /* Color de fondo más oscuro al pasar el cursor */
+}
+  
+  /* Estilos para las consultas de WhatsApp */
+  .consultas {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+  }
+  
+  /* Estilos para el número de WhatsApp */
+  .whatsapp-number {
+    margin-left: 5px;
+  }
+  
+  /* Media Query para hacer el diseño responsive */
+  @media screen and (max-width: 768px) {
+    .header {
+      padding: 10px; /* Reducir el padding en pantallas más pequeñas */
+    }
+
+    .search-box {
+        flex-direction: row; /* Cambiar la dirección del flexbox a fila */
+      }
+    
+      .search-input {
+        width: calc(50% - 10px); /* Ancho deseado para el campo de búsqueda en resoluciones más pequeñas */
+      }
+    
+      .search-button {
+        margin-left: 5px; /* Agregar un pequeño margen entre el campo de búsqueda y el botón */
+        width: calc(50% - 10px); /* Ancho deseado para el botón de búsqueda en resoluciones más pequeñas */
+      }
+  
+    .header-container {
+      flex-direction: column; /* Cambiar la dirección del flexbox a columna */
+      align-items: flex-start; /* Alinear elementos a la izquierda */
+    }
+  
+    
+    .consultas {
+      margin-left: 0; /* Eliminar margen izquierdo en pantallas más pequeñas */
+      margin-top: 10px; /* Agregar margen superior */
+    }
+  }
+  

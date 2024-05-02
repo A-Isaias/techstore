@@ -1,0 +1,49 @@
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Alinear los elementos en la fila */
+  }
+
+  .celular {
+    width: calc(33.33% - 20px); /* Ancho del celular (33.33% del ancho del contenedor con espacio entre ellos) */
+    margin-bottom: 20px; /* Espacio entre los celulares */
+  }
+  
+  .celular-img {
+    max-width: 90%; /* Ancho máximo del 100% para que la imagen sea responsive */
+    height: auto; /* Altura automática para mantener la proporción */
+  }
+  
+  .celular-precio {
+    font-size: 18px; /* Tamaño de la fuente más grande */
+    color: red; /* Color rojo */
+    font-weight: bold;
+  }
+  
+  .celular-boton-whatsapp {
+    background-color: #25D366; /* Color de fondo de WhatsApp */
+    color: white; /* Color de texto blanco */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Espacio interior */
+    font-size: 16px; /* Tamaño de fuente */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    margin-top: 10px; /* Margen superior */
+  }
+  
+  .celular-boton-whatsapp:hover {
+    background-color: #128C7E; /* Color de fondo más oscuro al pasar el cursor */
+  }
+  
+  /* Media Query para hacer el diseño responsive */
+  @media screen and (max-width: 768px) {
+    .celular {
+      width: calc(50% - 20px); /* Ancho del celular (50% del ancho del contenedor con espacio entre ellos) en pantallas más pequeñas */
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .celular {
+      width: calc(100% - 20px); /* Ancho del celular (100% del ancho del contenedor con espacio entre ellos) en pantallas aún más pequeñas */
+    }
+  }
